@@ -2,13 +2,13 @@ import React from 'react';
 
 function App (props) {
   return (
-      <div>
+      <div id="container">
           <header>
               <img src="https://ia.media-imdb.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_UX214_CR0,0,214,317_AL_.jpg" alt="Sally Smith"/>
-              <h1>Sally Smith</h1>
+              <h1>{props.name}</h1>
               <hr/>
               <address>
-                  <span>1234 South 5th Street -</span>
+                  <span>1234 South 5th Street Missoula, Montana -</span>
                   <span>123-456-7890 -</span>
                   <span>sally.smith@fakeemail.com </span>
               </address>
